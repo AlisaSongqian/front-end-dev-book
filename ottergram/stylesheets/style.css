@@ -49,16 +49,19 @@ a{
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
   display: inline-block;
-  /* width: 120px; */
   min-width: 120px;
   max-width: 120px;
+  transition: transform 133ms;
+}
+.thumbnail-item:hover{
+  transform: scale(1.2);
 }
 .thumbnail-list{
   display: flex;
   justify-content: space-between;
   flex: 0 1 auto;
   list-style: none;
-  padding: 0;
+  padding: 20px 0;
   white-space: nowrap;
   overflow-x: auto;
   order: 2;
@@ -117,6 +120,7 @@ a{
     flex-direction: column;
     order: 0;
     margin-left: 20px;
+    padding: 0 35px;
   }
   .thumbnail-item{
     max-width: 260px;
