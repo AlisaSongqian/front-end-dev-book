@@ -97,6 +97,16 @@ a{
   bottom: -16px;
   left: 4px;
 }
+.hidden-detail .detail-image-container{
+  display: none;
+}
+.hidden-detail .thumbnail-list{
+  flex-direction: column;
+  align-items: center;
+}
+.hidden-detail .thumbnail-item{
+  max-width: 80%;
+}
 @media all and (min-width:768px) {
   /* 当布局宽度大于768px时 */
   .main-content{
